@@ -1,11 +1,12 @@
-html{
+body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding:0;    
+    padding:0;  
+    background-color: rgb(254,202,7);  
 }
 
-.bloc 
+#bloc 
 {
     flex-flow: left;
     font-weight: 100px;
@@ -21,4 +22,6 @@ html{
     -webkit-border-radius:75px;
     border-radius:75px;
 }
-
+.contact{
+    background-color: rgb(254,202,7);
+}
