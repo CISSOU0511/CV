@@ -1,33 +1,48 @@
 .image-ronde{
-    width: 150px; 
-    height: 150px;        
+    width: 100px; 
+    height: 100px;        
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
     border-radius:50%;
 }
-.Cecile{
+.cecile{
     color: rgb(254,202,7);
-}
-.contact{
-  background-color: black;
-  display:flex;
-  justify-content:space-between;
-  
-  
 }
 .devel{
   text-decoration: rgb(254,202,7)underline;
   
 }
-.coordonnees{
-	background-color: black;
-	color: rgb(254,202,7);	
+.infos{		
+    background-color: rgb(254,202,7);
+	flex-direction:column;
+	list-style-type:none;
+	display:flex;
+	justify-content:space-between;
 }
-
-
-
+h3{
+	color:rgb(254,202,7);
+	background-color: black;
+}
+.main{
+	background-color:white;
+	border:none;
+	
+	justify-content:space-between;	
+}
+.fa-dot-circle{
+	color: rgb(254,202,7);
+	width:6%;		
 }
 .contact{
-    background-color: rgb(254,202,7);
-	
+	list-style-type:none;	
 }
+.main{
+	list-style-type:none;
+}
+.ex_pro{
+	list-style-type:none;
+}
+.formation{
+	text-decoration:rgb(254,202,7)underline;
+}
+
