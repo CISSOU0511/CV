@@ -1,17 +1,31 @@
-#bloc{
-    flex-flow: left;
-    font-weight: 100px;
-    background-color:  rgb(254, 202, 7);
-    flex-direction: column;
-    text-align: left;
-}
 .image-ronde{
     width: 150px; 
-    height: 150px;
-    border:none;    
-    -moz-border-radius:75px;
-    -webkit-border-radius:75px;
-    border-radius:75px;
+    height: 150px;        
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+}
+.Cecile{
+    color: rgb(254,202,7);
+}
+.contact{
+  background-color: black;
+  display:flex;
+  justify-content:space-between;
+  
+  
+}
+.devel{
+  text-decoration: rgb(254,202,7)underline;
+  
+}
+.coordonnees{
+	background-color: black;
+	color: rgb(254,202,7);	
+}
+
+
+
 }
 .contact{
     background-color: rgb(254,202,7);
