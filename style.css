@@ -9,8 +9,7 @@
     color: rgb(254,202,7);
 }
 .devel{
-  text-decoration: rgb(254,202,7)underline;
-  
+  text-decoration: rgb(254,202,7)underline;  
 }
 .infos{		
     background-color: rgb(254,202,7);
@@ -26,23 +25,30 @@ h3{
 .main{
 	background-color:white;
 	border:none;
-	
+	list-style-type:none;
 	justify-content:space-between;	
-}
-.fa-dot-circle{
-	color: rgb(254,202,7);
-	width:6%;		
 }
 .contact{
 	list-style-type:none;	
 }
-.main{
-	list-style-type:none;
+.pro{
+	list-style-type:none; 	
 }
-.ex_pro{
-	list-style-type:none;
+h2{
+	border-bottom:1px solid rgb(254,202,7);
 }
-.formation{
-	text-decoration:rgb(254,202,7)underline;
+.fa-briefcase{
+	color:rgb(254,202,7);
 }
+.fa-graduation-cap{
+	color:rgb(254,202,7);
+}
+.fa-pencil-alt{
+	color:rgb(254,202,7);
+	
+}	
+
+
+
+
 
