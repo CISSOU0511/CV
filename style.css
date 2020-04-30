@@ -1,23 +1,51 @@
+body{
+	margin:10px;
+	padding:10px;	
+}
+.experience{
+	width:80%;
+	display:flex;
+	flex-direction:column;
+	float:right;
+}
+.contact{
+	width:20%;
+	display:flex;
+	flex-direction:column;
+	list-style-type:none;	
+	background-color:rgb(254,202,7);		
+}
+header{	
+	width:80%;
+	display:flex;
+	flex-direction:column;
+	float:right;
+	margin-top:0;	
+}
 .image-ronde{
-    width: 100px; 
-    height: 100px; 
+    width: 150px; 
+    height: 150px; 
 	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
     border-radius:50%;
 	margin-left:auto;
 	margin-right:auto;		
 	margin-top:40px;
-	margin-bottom:30px;
+	margin-bottom:30px;	
 }
 h1{	
-	margin-top:40px;
+	margin-left:50px;
+	float:right;	
 	font-weight:300;
 	font-size:3em;
-	margin-top:0;
+	margin-top:10px;
 }
 h4{
+	margin-left:50px;
+	float:right;
 	font-weight:300;
 	font-size:1.5em;
+	
 }
 .cecile{
     color: rgb(254,202,7);
@@ -25,25 +53,18 @@ h4{
 .devel{
   text-decoration: rgb(254,202,7)underline;  
 }
-.infos{		
-    background-color: rgb(254,202,7);
-	flex-direction:column;
-	list-style-type:none;
-	display:flex;	
-}
-h3{	
+h3{		
+	text-align: center;
 	color:rgb(254,202,7);
 	background-color: black;
 }
 .main{
+	display:flex;
 	background-color:white;
 	border:none;
 	list-style-type:none;
-	justify-content:space-between;	
-}
-.contact{
 	flex-direction:column;
-	list-style-type:none;	
+	font-size:20px;	
 }
 .pro{
 	list-style-type:none; 	
@@ -64,14 +85,34 @@ h2{
 }
 .fa-dot-circle{
 	color:rgb(254,202,7);
-}
+	font-size:0.5em;	
+}	
 .fa-circle{
 	color:rgb(254,202,7);
-}
-.fa-horse{
-	border-style:solid;
-	border-radius:50%;
+	font-size:0.5em;
 	
+}
+.fa-horse{	
+	font-weight:900;
+	font-size:300%;
+	border-radius:100%;
+	border: 3px solid;
+}
+.fa-motorcycle{
+	font-weight:900;
+	font-size:300%;
+	border-radius:100%;
+	border: 3px solid;
+}
+.fa-gamepad{
+	font-weight:900;
+	font-size:300%;
+	border-radius:100%;
+	border: 3px solid;
+}
+.loisir{
+	display:flex;
+	justify-content:space-between;
 }
 
 
