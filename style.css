@@ -1,12 +1,13 @@
-body{
-	margin:10px;
-	padding:10px;	
+ html,body{
+	margin: 10px ;
+	padding: 10px ;	
 }
 .experience{
 	width:80%;
 	display:flex;
 	flex-direction:column;
 	float:right;
+	position:absolute; top:250px; left:300px;
 }
 .contact{
 	width:20%;
@@ -16,104 +17,126 @@ body{
 	background-color:rgb(254,202,7);		
 }
 header{	
-	width:80%;
 	display:flex;
+	width:80%;	
 	flex-direction:column;
-	float:right;
-	margin-top:0;	
+	float:right;			
 }
 .image-ronde{
-    width: 150px; 
-    height: 150px; 
+    width:150px; 
+    height:150px; 
 	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
     border-radius:50%;
 	margin-left:auto;
 	margin-right:auto;		
 	margin-top:40px;
-	margin-bottom:30px;	
+	margin-bottom:30px
 }
 h1{	
+	height:0;
 	margin-left:50px;
 	float:right;	
-	font-weight:300;
+	font-weight:50;
 	font-size:3em;
-	margin-top:10px;
+	margin-top:60px;
 }
 h4{
 	margin-left:50px;
 	float:right;
-	font-weight:300;
+	font-weight:100;
 	font-size:1.5em;
-	
 }
 .cecile{
-    color: rgb(254,202,7);
+    color:rgb(254,202,7);
 }
 .devel{
-  text-decoration: rgb(254,202,7)underline;  
+	text-decoration:rgb(254,202,7)underline;  
 }
 h3{		
-	text-align: center;
+	text-align:center;
 	color:rgb(254,202,7);
 	background-color: black;
 }
 .main{
 	display:flex;
-	background-color:white;
-	border:none;
-	list-style-type:none;
-	flex-direction:column;
-	font-size:20px;	
+	background-color:white;		
+	flex-direction:column;	
 }
 .pro{
-	list-style-type:none; 	
+	list-style-type:none;  	
 }
 h2{
-	border-bottom:1px solid rgb(254,202,7);
+	margin-left:50px;
+	text-decoration:rgb(254,202,7)underline;
+	
+}
+
+.fa-graduation-cap{
+	float:left;
+	position:relative;
+	bottom:55px;
+	color:rgb(254,202,7);
+	font-size:2em;	
 }
 .fa-briefcase{
+	float:left;
+	position:relative;
 	color:rgb(254,202,7);
-	font-size:1em;
-	font-weight:100;
+	font-size:2em;
 }
 .fa-pencil-alt{
 	color:rgb(254,202,7);
+	font-size:2em;
 }
-.fa-graduation-cap{
+.fa-dot-circle{	
 	color:rgb(254,202,7);
-}
-.fa-dot-circle{
-	color:rgb(254,202,7);
-	font-size:0.5em;	
+	font-size:0.5em;
+	list-style-type:disc;
+	
 }	
 .fa-circle{
 	color:rgb(254,202,7);
 	font-size:0.5em;
-	
 }
 .fa-horse{	
-	font-weight:900;
+	font-weight:600;
 	font-size:300%;
 	border-radius:100%;
-	border: 3px solid;
+	border: 2px solid;
 }
 .fa-motorcycle{
 	font-weight:900;
 	font-size:300%;
 	border-radius:100%;
-	border: 3px solid;
+	border: 2px solid;
 }
 .fa-gamepad{
 	font-weight:900;
 	font-size:300%;
 	border-radius:100%;
-	border: 3px solid;
+	border: 2px solid;
 }
 .loisir{
 	display:flex;
 	justify-content:space-between;
 }
+.date{
+	font-size:20px;
+	margin-left:30px;
+	
+}
+li{
+	list-style-type:none;	
+}
+
+
+
+
+
+
+
+
 
 
 
