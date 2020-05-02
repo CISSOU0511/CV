@@ -1,13 +1,15 @@
- html,body{
-	margin: 10px ;
-	padding: 10px ;	
+body{
+	margin: 10px;
+	padding: 10px;	
 }
 .experience{
 	width:80%;
 	display:flex;
 	flex-direction:column;
 	float:right;
-	position:absolute; top:250px; left:300px;
+	position:absolute; top:250px; left:300px;	
+	background-color:white;		
+	
 }
 .contact{
 	width:20%;
@@ -43,7 +45,7 @@ h1{
 }
 h4{
 	margin-left:50px;
-	float:right;
+	float:right;l
 	font-weight:100;
 	font-size:1.5em;
 }
@@ -60,22 +62,19 @@ h3{
 }
 .main{
 	display:flex;
-	background-color:white;		
 	flex-direction:column;	
 }
 .pro{
 	list-style-type:none;  	
 }
 h2{
-	margin-left:50px;
-	text-decoration:rgb(254,202,7)underline;
-	
+	margin-left:50px;		
 }
 
 .fa-graduation-cap{
 	float:left;
 	position:relative;
-	bottom:55px;
+	bottom:50px;
 	color:rgb(254,202,7);
 	font-size:2em;	
 }
@@ -84,20 +83,31 @@ h2{
 	position:relative;
 	color:rgb(254,202,7);
 	font-size:2em;
+	bottom:50px;
 }
 .fa-pencil-alt{
+	float:left;
+	position:relative;
 	color:rgb(254,202,7);
 	font-size:2em;
+	bottom:50px;
 }
 .fa-dot-circle{	
 	color:rgb(254,202,7);
-	font-size:0.5em;
-	list-style-type:disc;
-	
+	font-size:0.75em;
+	display:flex;
+	position:relative;
+	right:20px;
+	bottom:60px;
+		
 }	
 .fa-circle{
 	color:rgb(254,202,7);
-	font-size:0.5em;
+	font-size:0.75em;
+	float:left;
+	position:relative;
+	right:20px;
+	bottom:75px;
 }
 .fa-horse{	
 	font-weight:600;
@@ -124,11 +134,42 @@ h2{
 .date{
 	font-size:20px;
 	margin-left:30px;
-	
+	position:relative;
+	float:left;
+	bottom:80px;	
 }
 li{
-	list-style-type:none;	
+	list-style-type:none;
 }
+hr{
+	position:relative;
+	bottom:55px;	
+}
+.ville{	
+	margin-left:30px;
+	position:relative;
+	float:left;
+	bottom:60px;
+	right:115px;
+}
+.diplome{
+	width:30%;	
+	float:right;
+	position:relative;	
+	right:450px;
+	bottom:80px;
+	font-size:20px;
+	font-weight:bolder;	
+}
+p{
+	display:flex;
+	flex-wrap:nowrap;
+	font-size:20px;	
+	position:relative;
+	left:5px;
+	bottom:50px;	
+}
+
 
 
 
