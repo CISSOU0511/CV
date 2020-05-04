@@ -1,28 +1,32 @@
+#bloc{
+	background-color:rgb(254,202,7);
+	width:20%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
 body{
 	margin: 10px;
 	padding: 10px;	
 }
-.experience{
-	width:80%;
-	display:flex;
-	flex-direction:column;
-	float:right;
-	position:absolute; top:250px; left:300px;	
-	background-color:white;		
-	
-}
-.contact{
+#bloc>contact{
 	width:20%;
 	display:flex;
 	flex-direction:column;
 	list-style-type:none;	
 	background-color:rgb(254,202,7);		
 }
-header{	
+
+#loisir>div>i{	
+	font-weight:600;
+	font-size:300%;
+	border-radius:50%;
+	border:3px solid;
+}
+#loisir>div{
 	display:flex;
-	width:80%;	
-	flex-direction:column;
-	float:right;			
+	justify-content:space-around;
+	margin-bottom:5px;
 }
 .image-ronde{
     width:150px; 
@@ -33,19 +37,22 @@ header{
 	margin-left:auto;
 	margin-right:auto;		
 	margin-top:40px;
-	margin-bottom:30px
+	margin-bottom:30px;
+	align-items:center;
+	display:flex;
 }
-h1{	
-	height:0;
-	margin-left:50px;
-	float:right;	
+/*fin de contact*/
+header{	
+	position:absolute;
+	width:80%;	
+	left:300px;
+	padding-bottom:50px;			
+}
+h1{		
 	font-weight:50;
-	font-size:3em;
-	margin-top:60px;
+	font-size:1.5em;	
 }
 h4{
-	margin-left:50px;
-	float:right;l
 	font-weight:100;
 	font-size:1.5em;
 }
@@ -55,119 +62,110 @@ h4{
 .devel{
 	text-decoration:rgb(254,202,7)underline;  
 }
+#experience>header{
+	width:90%;
+	margin-left:5%;
+	height:8%;
+}
+/*fin de header*/
 h3{		
 	text-align:center;
 	color:rgb(254,202,7);
 	background-color: black;
 }
-.main{
+#experience>section>ul>li{
 	display:flex;
-	flex-direction:column;	
+	flex-direction:row;
+	justify-content:space-around;		
 }
-.pro{
-	list-style-type:none;  	
+#experience{
+	width:80%;
+	display:flex;
+	flex-direction:column;
+	float:right;
+	position:absolute; top:250px; left:300px;	
+	background-color:white;	
 }
-h2{
-	margin-left:50px;		
-}
-
-.fa-graduation-cap{
+.fas.fa-graduation-cap{
 	float:left;
 	position:relative;
 	bottom:50px;
 	color:rgb(254,202,7);
 	font-size:2em;	
 }
-.fa-briefcase{
+.fas.fa-briefcase{
 	float:left;
 	position:relative;
 	color:rgb(254,202,7);
 	font-size:2em;
 	bottom:50px;
 }
-.fa-pencil-alt{
+.fas.fa-pencil-alt{
 	float:left;
 	position:relative;
 	color:rgb(254,202,7);
 	font-size:2em;
 	bottom:50px;
-}
-.fa-dot-circle{	
-	color:rgb(254,202,7);
-	font-size:0.75em;
-	display:flex;
-	position:relative;
-	right:20px;
-	bottom:60px;
-		
-}	
-.fa-circle{
-	color:rgb(254,202,7);
-	font-size:0.75em;
-	float:left;
-	position:relative;
-	right:20px;
-	bottom:75px;
-}
-.fa-horse{	
-	font-weight:600;
-	font-size:300%;
-	border-radius:100%;
-	border: 2px solid;
-}
-.fa-motorcycle{
-	font-weight:900;
-	font-size:300%;
-	border-radius:100%;
-	border: 2px solid;
-}
-.fa-gamepad{
-	font-weight:900;
-	font-size:300%;
-	border-radius:100%;
-	border: 2px solid;
-}
-.loisir{
-	display:flex;
-	justify-content:space-between;
-}
-.date{
-	font-size:20px;
-	margin-left:30px;
-	position:relative;
-	float:left;
-	bottom:80px;	
 }
 li{
 	list-style-type:none;
+	width:941px;
+}
+.fas.fa-dot-circle{	
+	color:rgb(254,202,7);
+	font-size:1em;
+	display:flex;
+	position:relative;
+	right:50px;
+	width:56px;
+	height:122px;
+	font-weight:400;		
+}	
+.fas.fa-circle{
+	color:rgb(254,202,7);
+	font-size:1em;
+	float:left;
+	position:relative;
+	right:40px;
+	height:122px;
+	width:56px;
+}
+ul{
+	display:flex;
+	flex-direction:column;
 }
 hr{
 	position:relative;
-	bottom:55px;	
+	bottom:15px;
+	right:40px;
 }
-.ville{	
-	margin-left:30px;
+li>.date{
+	display:flex;
+	font-size:20px;
+	flex-direction:column;
+	width:10%;
+}
+h2{
+	left:50px;
 	position:relative;
-	float:left;
-	bottom:60px;
-	right:115px;
 }
 .diplome{
-	width:30%;	
-	float:right;
-	position:relative;	
-	right:450px;
-	bottom:80px;
-	font-size:20px;
-	font-weight:bolder;	
+	width:70%;	
+	display:flex;
+	flex-direction:column;
+	position:relative;		
+	font-size:30px;
+	margin-left:10px;
+	align-items:center;		
 }
-p{
+.p{
 	display:flex;
 	flex-wrap:nowrap;
-	font-size:20px;	
-	position:relative;
-	left:5px;
-	bottom:50px;	
+	flex-direction:row;
+}
+section{
+	margin:0px;
+	padding:0px;
 }
 
 
