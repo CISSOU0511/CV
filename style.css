@@ -43,14 +43,16 @@ body{
 }
 /*fin de contact*/
 header{	
-	position:absolute;
-	width:80%;	
-	left:300px;
-	padding-bottom:50px;			
+	display:flex;
+	width:100%;				
+}
+#photo{
+	width:20%;
+	background-color:rgb(254,202,7);
 }
 h1{		
 	font-weight:50;
-	font-size:1.5em;	
+	font-size:3em;	
 }
 h4{
 	font-weight:100;
@@ -79,11 +81,11 @@ h3{
 	justify-content:space-around;		
 }
 #experience{
-	width:80%;
-	display:flex;
-	flex-direction:column;
-	float:right;
-	position:absolute; top:250px; left:300px;	
+	width:70%;
+/*	display:flex;
+	flex-direction:column;*/
+/*	float:right;
+	position:absolute; top:250px; left:300px;*/	
 	background-color:white;	
 }
 .fas.fa-graduation-cap{
@@ -114,11 +116,11 @@ li{
 .fas.fa-dot-circle{	
 	color:rgb(254,202,7);
 	font-size:1em;
-	display:flex;
+/*	display:flex;*/
 	position:relative;
-	right:50px;
+/*	right:50px;
 	width:56px;
-	height:122px;
+	height:122px;*/
 	font-weight:400;		
 }	
 .fas.fa-circle{
@@ -139,12 +141,7 @@ hr{
 	bottom:15px;
 	right:40px;
 }
-li>.date{
-	display:flex;
-	font-size:20px;
-	flex-direction:column;
-	width:10%;
-}
+
 h2{
 	left:50px;
 	position:relative;
@@ -166,6 +163,9 @@ h2{
 section{
 	margin:0px;
 	padding:0px;
+}
+.items{
+	display:flex;
 }
 
 
