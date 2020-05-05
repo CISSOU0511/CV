@@ -74,8 +74,8 @@ h4{
 	height:8%;
 }*/
 /*fin de header*/
-h3{		
-	text-align:center;
+h3{	
+	text-align:center;	
 	color:rgb(254,202,7);
 	background-color: black;
 }
@@ -140,11 +140,6 @@ hr{
 	position:relative;
 	bottom:15px;
 	right:40px;
-}
-
-h2{
-	left:50px;
-	position:relative;
 }
 .diplome{
 	width:70%;	
