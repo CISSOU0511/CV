@@ -139,9 +139,13 @@ h4{
 	font-size:25px;
 }
 hr{
-	position:relative;
+/*	position:relative;
 	bottom:30px;
-	left:20px;
+	left:20px;*/
+	color:#feca07;
+	width:100%;
+	font-size:1em;
+	background:#feca07;
 }
 .detail{
 	width:50%;	
@@ -163,11 +167,48 @@ p{
 	font-size:15px;
 	flex-direction:column;
 }
-.reco{
+#reco{
+	display:flex;	
+}
+ul>li{
+	list-style-type:none;
 	display:flex;
 	flex-direction:column;
 }
-
+@media all and (max-width:768px){
+	header{
+		width:100%;
+	}
+	body{
+		width:100%;
+	}
+	#bloc{
+		width:100%;
+	}
+	#experience{
+		width:100%;
+	}
+	#page{		
+		display:flex;
+		flex-direction:column-reverse;
+	}
+	#photo{
+		background-color:white;
+	}
+	.image-ronde{
+		border:1px solid rgb(254,202,7);
+	}
+}
+@media all and (max-width:600px){
+	.items{
+		display:flex;
+		flex-direction:column;
+	}
+	.detail, .date{
+		width:100%;
+		margin-top:10px;
+	}
+}
 
 
 
