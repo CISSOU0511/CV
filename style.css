@@ -71,7 +71,6 @@ header{
 	background-color:rgb(254,202,7);
 }
 h1{		
-	font-weight:50;
 	font-size:2em;
 	position:relative;
 	left:100px;
@@ -92,6 +91,10 @@ h3{
 	text-align:center;	
 	color:rgb(254,202,7);
 	background-color:black;
+}
+#contact>p{
+	font-size:15px;
+	margin-left:10px;
 }
 /*#experience>section>ul>li{
 	display:flex;
@@ -248,8 +251,8 @@ ul>li{
 		font-size:12px;
 	}
 	.detail{
-		margin-left:40px;
 		font-size:15px;
+		margin-left:40px;
 	}
 	hr{
 		position:relative;
@@ -293,7 +296,7 @@ ul>li{
 		margin-top:10px;
 	}
 	.detail{
-	margin-left:70px;
+	margin-left:40px;
 	}
 }
 @media all and (max-width:740px){
@@ -325,7 +328,7 @@ ul>li{
 		margin-top:10px;
 	}
 	.detail{
-	margin-left:70px;
+	margin-left:40px;
 	}
 }
 @media all and (max-width:800px){
@@ -357,7 +360,7 @@ ul>li{
 		margin-top:10px;
 	}
 	.detail{
-	margin-left:70px;
+	margin-left:40px;
 	}
 }
 @media all and (max-width:1024px){
@@ -389,7 +392,7 @@ ul>li{
 		margin-top:10px;
 	}
 	.detail{
-	margin-left:70px;
+	margin-left:40px;
 	}
 }
 
