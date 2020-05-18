@@ -252,7 +252,7 @@ ul>li{
 	}
 	.detail{
 		font-size:15px;
-		margin-left:40px;
+		margin-left:45px;
 	}
 	hr{
 		position:relative;
@@ -296,7 +296,7 @@ ul>li{
 		margin-top:10px;
 	}
 	.detail{
-	margin-left:40px;
+		margin-left:45px;
 	}
 }
 @media all and (max-width:740px){
@@ -326,9 +326,9 @@ ul>li{
 	.detail, .date{
 		width:100%;
 		margin-top:10px;
-	}
+	}	
 	.detail{
-	margin-left:40px;
+		margin-left:45px;
 	}
 }
 @media all and (max-width:800px){
@@ -358,10 +358,7 @@ ul>li{
 	.detail, .date{
 		width:100%;
 		margin-top:10px;
-	}
-	.detail{
-	margin-left:40px;
-	}
+	}	
 }
 @media all and (max-width:1024px){
 	header{
@@ -390,10 +387,7 @@ ul>li{
 	.detail, .date{
 		width:100%;
 		margin-top:10px;
-	}
-	.detail{
-	margin-left:40px;
-	}
+	}	
 }
 
 
