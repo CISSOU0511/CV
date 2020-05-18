@@ -208,10 +208,10 @@ ul>li{
 		font-size:15px;
 	}
 	.fas.fa-dot-circle{
-		width:25px;
+		width:7%;
 	}
 	.fas.fa-circle{
-		width:25px;
+		width:7%;
 	}
 	#metier{
 		width:100%;
@@ -252,7 +252,7 @@ ul>li{
 	}
 	.detail{
 		font-size:15px;
-		margin-left:45px;
+		margin-left:40px;
 	}
 	hr{
 		position:relative;
@@ -284,6 +284,12 @@ ul>li{
 	#photo{
 		background-color:white;
 	}
+	.fas.fa-dot-circle{
+		width:5%;
+	}
+	.fas.fa-circle{
+		width:5%;
+	}
 	.image-ronde{
 		border:1px solid rgb(254,202,7);
 	}
@@ -296,11 +302,11 @@ ul>li{
 		margin-top:10px;
 	}
 	.detail{
-		margin-left:45px;
+		margin-left:40px;
 	}
 }
 @media all and (max-width:740px){
-		header{
+	header{
 		width:100%;
 	}	
 	#bloc{
@@ -327,8 +333,14 @@ ul>li{
 		width:100%;
 		margin-top:10px;
 	}	
+	.fas.fa-dot-circle{
+		width:25px;
+	}
+	.fas.fa-circle{
+		width:25px;
+	}
 	.detail{
-		margin-left:45px;
+		margin-left:40px;
 	}
 }
 @media all and (max-width:800px){
