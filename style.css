@@ -367,11 +367,15 @@ ul>li{
 	.items{
 		display:flex;
 		flex-direction:column;
+		padding-left:50px;
 	}
 	.detail, .date{
 		width:100%;
 		margin-top:10px;
 	}	
+	.date{
+		left:0px;
+	}
 }
 @media all and (max-width:1024px){
 	header{
