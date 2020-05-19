@@ -155,8 +155,9 @@ hr{
 	left:20px;
 	color:transparent;
 	width:100%;
-	font-size:1em;
+	height:2px;
 	background-color:#feca07;
+	border:none;
 }
 .detail{
 	width:50%;	
