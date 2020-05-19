@@ -70,7 +70,8 @@ header{
 	width:20%;
 	background-color:rgb(254,202,7);
 }
-h1{		
+h1{	
+	font-weight:50;
 	font-size:2em;
 	position:relative;
 	left:100px;
