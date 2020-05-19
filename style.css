@@ -60,10 +60,12 @@ header{
 #nom{
 	width:70%;
 	font-size:15px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center
 }
 #metier{
-	position:relative;
-	left:100px;
+	padding-left:30px;
 	font-size:10px;
 }
 #photo{
@@ -73,8 +75,7 @@ header{
 h1{	
 	font-weight:50;
 	font-size:2em;
-	position:relative;
-	left:100px;
+	padding-left:30px;
 }
 .cecile{
     color:rgb(254,202,7);
@@ -160,10 +161,10 @@ hr{
 	border:none;
 }
 .detail{
-	width:50%;	
 	display:flex;
-	flex-direction:column;		
-	font-size:15px;				
+	width:50%;
+	font-size:15px;		
+	flex-wrap:wrap;				
 }
 .date{
 	display:flex;
@@ -222,7 +223,7 @@ ul>li{
 		left:70px;
 	}
 	#bloc{
-		width:100%;
+		width:100%;		
 	}
 	#experience{
 		width:100%;
@@ -254,7 +255,7 @@ ul>li{
 	}
 	.detail{
 		font-size:15px;
-		margin-left:40px;
+		padding-left:25px;
 	}
 	hr{
 		position:relative;
@@ -302,10 +303,7 @@ ul>li{
 	.detail, .date{
 		width:100%;
 		margin-top:10px;
-	}
-	.detail{
-		margin-left:40px;
-	}
+	}	
 }
 @media all and (max-width:740px){
 	header{
@@ -340,10 +338,7 @@ ul>li{
 	}
 	.fas.fa-circle{
 		width:25px;
-	}
-	.detail{
-		margin-left:40px;
-	}
+	}	
 }
 @media all and (max-width:800px){
 	header{
@@ -362,13 +357,30 @@ ul>li{
 	#photo{
 		background-color:white;
 	}
+	#nom{
+		display:flex;
+		justify-content:center;
+		flex-direction:column;
+	}
+	h1{
+		padding-left:30px;
+	}
+	p{
+		padding-right:40px;
+	}
+	.fas.fa-dot-circle{
+		width:25px;
+	}
+	.fas.fa-circle{
+		width:25px;
+	}
 	.image-ronde{
 		border:1px solid rgb(254,202,7);
 	}
 	.items{
 		display:flex;
 		flex-direction:column;
-		padding-left:50px;
+		padding-left:5px;
 	}
 	.detail, .date{
 		width:100%;
@@ -377,8 +389,11 @@ ul>li{
 	.date{
 		left:0px;
 	}
+	.detail{
+		padding-left:25px;
+	}
 }
-@media all and (max-width:1024px){
+@media all and (min-width:801px) (max-width:1024px){
 	header{
 		width:100%;
 	}	
