@@ -381,7 +381,7 @@ ul>li{
 		justify-content:center;
 		flex-direction:column;
 	}
-	#a_propos{
+	#a_propos>p{
 		padding-left:20px;
 	}
 	hr{
