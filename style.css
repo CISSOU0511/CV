@@ -75,6 +75,7 @@ header{
 h1{
 	font-size:2em;
 	padding-left:30px;
+	font-weight:200;
 }
 .cecile{
     color:rgb(254,202,7);
@@ -383,6 +384,10 @@ ul>li{
 	#a_propos>p{
 		padding-left:20px;
 	}
+	#contact>ul{
+		padding-left:10px;
+		font-size:12px;
+	}
 	hr{
 		width:95%;
 		left:0px;
@@ -418,35 +423,6 @@ ul>li{
 	.detail{
 		padding-left:25px;
 	}
-}
-@media all and (min-width:801px) (max-width:1024px){
-	header{
-		width:100%;
-	}	
-	#bloc{
-		width:100%;
-	}
-	#experience{
-		width:100%;
-	}
-	#page{		
-		display:flex;
-		flex-direction:column-reverse;
-	}
-	#photo{
-		background-color:white;
-	}
-	.image-ronde{
-		border:1px solid rgb(254,202,7);
-	}
-	.items{
-		display:flex;
-		flex-direction:column;
-	}
-	.detail, .date{
-		width:100%;
-		margin-top:10px;
-	}	
 }
 
 
