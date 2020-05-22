@@ -265,7 +265,7 @@ ul>li{
 		font-size:12px;
 	}
 	ul{
-		font-size:12px;
+		font-size:10px;
 	}
 }
 @media all and (max-width:600px){
@@ -286,6 +286,21 @@ ul>li{
 	}
 	#photo{
 		background-color:white;
+	}
+	h1{
+		position:relative;
+		left:50px;
+	}
+	#metier{
+		position:relative;
+		left:50px;
+	}
+	hr{
+		width:95%;
+		left:0px;
+	}
+	ul{
+		padding-left:30px;
 	}
 	.fas.fa-dot-circle{
 		width:5%;
@@ -321,6 +336,10 @@ ul>li{
 	}
 	#photo{
 		background-color:white;
+	}
+	hr{
+		width:95%;
+		left:0px;
 	}
 	.image-ronde{
 		border:1px solid rgb(254,202,7);
@@ -362,11 +381,15 @@ ul>li{
 		justify-content:center;
 		flex-direction:column;
 	}
+	hr{
+		width:95%;
+		left:0px;
+	}
 	h1{
 		padding-left:30px;
 	}
 	p{
-		padding-right:40px;
+		padding-right:50px;
 	}
 	.fas.fa-dot-circle{
 		width:25px;
@@ -383,7 +406,7 @@ ul>li{
 		padding-left:5px;
 	}
 	.detail, .date{
-		width:100%;
+		width:95%%;
 		margin-top:10px;
 	}	
 	.date{
