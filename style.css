@@ -232,7 +232,9 @@ ul>li{
 	}
 	#photo{
 		background-color:white;
-		width:100%;			
+		width:100%;	
+		transform:rotate(90deg);
+		-moz-transform:(0deg);
 	}	
 	.image-ronde{
 		border:1px solid rgb(254,202,7);
@@ -286,6 +288,8 @@ ul>li{
 		width:100%;
 		background-color:white;
 		display:flex;
+		transform:rotate(90deg);
+		-moz-transform:(0deg);
 	}
 	#nom{
 		width:95%;
@@ -331,6 +335,8 @@ ul>li{
 	}
 	#photo{
 		background-color:white;
+		transform:rotate(90deg);
+		-moz-transform:(0deg);
 	}
 	hr{
 		width:95%;
@@ -367,6 +373,8 @@ ul>li{
 	}
 	#photo{
 		background-color:white;
+		transform:rotate(90deg);
+		-moz-transform:(0deg);
 	}
 	#nom{
 		display:flex;
@@ -428,7 +436,9 @@ ul>li{
 		flex-direction:column-reverse;
 	}
 	#photo{
-		background-color:white;		
+		background-color:white;
+		transform:rotate(90deg);
+		-moz-transform:(0deg);
 	}
 	#nom{
 		display:flex;
