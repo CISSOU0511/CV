@@ -260,9 +260,7 @@ ul>li{
 	#photo{
 		width:100%;
 		background-color:white;
-		display:flex;
-		transform:rotate(-90deg);
-		-moz-transform:rotate(0deg);
+		display:flex;		
 	}
 	#nom{
 		width:95%;
@@ -307,9 +305,7 @@ ul>li{
 		flex-direction:column-reverse;
 	}
 	#photo{
-		background-color:white;
-		transform:rotate(-90deg);
-		-moz-transform:rotate(0deg);
+		background-color:white;		
 	}
 	#nom{
 		display:flex;
@@ -371,9 +367,7 @@ ul>li{
 		flex-direction:column-reverse;
 	}
 	#photo{
-		background-color:white;
-		transform:rotate(90deg);
-		-moz-transform:(0deg);
+		background-color:white;		
 	}
 	#nom{
 		display:flex;
