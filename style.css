@@ -203,9 +203,7 @@ ul>li{
 	}
 	h1{
 		width:100%;
-		font-size:20px;
-		position:relative;
-		left:70px;
+		font-size:20px;		
 	}
 	h3{
 		font-size:15px;
@@ -215,9 +213,7 @@ ul>li{
 	}	
 	#metier{
 		width:100%;
-		font-size:8px;
-		position:relative;
-		left:70px;
+		font-size:8px;		
 	}
 	#bloc{
 		width:100%;		
@@ -231,7 +227,13 @@ ul>li{
 	}
 	#photo{
 		background-color:white;
+		width:100%;	
+		transform:rotate(90deg);
+	}
+	#nom{
 		width:100%;
+		display:flex;
+		text-align:center;
 	}
 	.image-ronde{
 		border:1px solid rgb(254,202,7);
@@ -284,7 +286,8 @@ ul>li{
 	#photo{
 		width:100%;
 		background-color:white;
-		display:flex;		
+		display:flex;
+		transform:rotate(90deg);
 	}
 	#nom{
 		width:100%;
@@ -330,6 +333,7 @@ ul>li{
 	}
 	#photo{
 		background-color:white;
+		transform:rotate(90deg);
 	}
 	hr{
 		width:95%;
@@ -366,6 +370,7 @@ ul>li{
 	}
 	#photo{
 		background-color:white;
+		transform:rotate(90deg);
 	}
 	#nom{
 		display:flex;
@@ -428,6 +433,7 @@ ul>li{
 	}
 	#photo{
 		background-color:white;
+		transform:rotate(90deg);
 	}
 	#nom{
 		display:flex;
