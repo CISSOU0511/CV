@@ -208,7 +208,12 @@ ul>li{
 	h3{
 		font-size:15px;
 	}
-	.fas.fa-dot-circle,.fas.fa-circle{
+	#nom{
+		width:100%;
+		display:flex;
+		text-align:center;
+	}
+	.fas.fa-dot-circle, .fas.fa-circle{
 		width:7%;
 	}	
 	#metier{
@@ -229,12 +234,8 @@ ul>li{
 		background-color:white;
 		width:100%;	
 		transform:rotate(90deg);
-	}
-	#nom{
-		width:100%;
-		display:flex;
-		text-align:center;
-	}
+		-moz-transform:rotate(0deg);
+	}	
 	.image-ronde{
 		border:1px solid rgb(254,202,7);
 	}
@@ -288,6 +289,7 @@ ul>li{
 		background-color:white;
 		display:flex;
 		transform:rotate(90deg);
+		-moz-transform:rotate(0deg);
 	}
 	#nom{
 		width:100%;
@@ -334,6 +336,7 @@ ul>li{
 	#photo{
 		background-color:white;
 		transform:rotate(90deg);
+		-moz-transform:rotate(0deg);
 	}
 	hr{
 		width:95%;
@@ -371,6 +374,7 @@ ul>li{
 	#photo{
 		background-color:white;
 		transform:rotate(90deg);
+		-moz-transform:rotate(0deg);
 	}
 	#nom{
 		display:flex;
@@ -434,6 +438,7 @@ ul>li{
 	#photo{
 		background-color:white;
 		transform:rotate(90deg);
+		-moz-transform:rotate(0deg);
 	}
 	#nom{
 		display:flex;
