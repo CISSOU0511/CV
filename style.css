@@ -206,7 +206,8 @@ ul>li{
 	}
 	#photo{
 		width:100%;
-		background-color:white;					
+		background-color:white;	
+		transform:(-90deg);
 	}
 	#nom{
 		width:95%;
@@ -255,7 +256,7 @@ ul>li{
 	}
 	#photo{
 		background-color:white;
-		transform:rotate(-90deg);		
+		transform:(-90deg);
 	}
 	#nom{
 		display:flex;
