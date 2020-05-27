@@ -195,59 +195,6 @@ ul>li{
 	list-style-type:none;
 	display:flex;	
 }
-@media all and (max-width:360px){	
-	h1{		
-		font-size:20px;		
-	}
-	h3{
-		font-size:15px;
-	}	
-	.fas.fa-dot-circle, .fas.fa-circle{
-		width:7%;
-	}	
-	#metier{
-		width:95%;
-		font-size:8px;		
-	}	
-	#page{		
-		display:flex;
-		flex-direction:column-reverse;
-	}
-	#photo{
-		background-color:white;	
-	}	
-	.image-ronde{
-		border:1px solid rgb(254,202,7);
-	}
-	section>h2{
-		font-size:12px;
-	}
-	.items{
-		display:flex;
-		flex-direction:column;
-	}
-	.detail, .date{
-		width:100%;
-		margin-top:10px;
-	}
-	.date{
-		font-size:12px;
-	}
-	.detail{
-		font-size:15px;
-		padding-left:25px;
-	}
-	hr{
-		position:relative;
-		bottom:0px;
-	}
-	p{
-		font-size:12px;
-	}
-	ul{
-		font-size:10px;
-	}
-}
 @media all and (max-width:600px){
 	header{		
 		display:flex;
@@ -288,68 +235,6 @@ ul>li{
 		width:100%;
 		margin-top:10px;
 	}	
-}
-@media all and (max-width:800px){
-	header{
-		width:100%;
-	}	
-	#bloc{
-		width:100%;
-	}
-	#experience{
-		width:100%;
-	}
-	#page{		
-		display:flex;
-		flex-direction:column-reverse;
-	}
-	#photo{
-		background-color:white;		
-	}
-	#nom{
-		display:flex;
-		justify-content:center;
-		flex-direction:column;
-	}
-	#a_propos>p{
-		padding-left:20px;
-	}
-	#contact>ul{
-		padding-left:10px;
-		font-size:12px;
-	}
-	hr{
-		width:95%;
-		left:0px;
-	}
-	h1{
-		padding-left:30px;
-	}
-	p{
-		padding-right:50px;
-	}
-	.fas.fa-dot-circle, .fas.fa-circle {
-		width:25px;
-	}	
-	.image-ronde{
-		border:1px solid rgb(254,202,7);
-	}
-	.items{
-		display:flex;
-		flex-direction:column;
-		padding-left:5px;
-	}
-	.detail, .date{
-		width:95%;
-		margin-top:10px;
-	}	
-	.date{
-		position:relative;
-		left:0px;
-	}
-	.detail{
-		padding-left:25px;
-	}
 }
 @media all and (max-width:1024px){
 	header{
