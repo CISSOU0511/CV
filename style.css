@@ -255,7 +255,8 @@ ul>li{
 		flex-direction:column-reverse;
 	}
 	#photo{
-		background-color:white;		
+		background-color:white;	
+		transform:rotate(-90deg);
 	}
 	#nom{
 		display:flex;
