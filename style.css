@@ -59,10 +59,10 @@ header{
 }
 #nom{
 	width:70%;
-	font-size:25px;
+	font-size:50px;
 	display:flex;
 	flex-direction:column;
-	justify-content:center
+	justify-content:center;
 }
 #metier{
 	padding-left:30px;
@@ -297,6 +297,7 @@ ul>li{
 		padding-left:25px;
 	}	
 }
+
 
 
 
